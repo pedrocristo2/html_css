@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Classes em HTML</title>
+    <style>
+        
+        body {
+            background-color: aliceblue;
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div {
+           
+            background-color: antiquewhite;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+            border: 1px solid black;
+        }
+
+        div:hover {
+            background-color: black;
+        }
+
+        #d1 > p {
+
+            display: none;
+        }
+
+        #d2 > p {
+
+            display: none;
+        }
+
+        #d3 > p {
+
+            display: none;
+        }
+
+        #d1:hover > p {
+            display: block;
+        }
+
+        #d2:hover > p {
+            display: block;
+        }
+
+        #d3:hover > p {
+            display: block;
+        }
+
+        #d1 {
+            position: relative;
+            left: 300px;
+         top: 220px;
+            border: 5px solid blueviolet;
+            margin: 10px;
+        }
+
+        #d2 {
+            border: 5px solid blueviolet;
+            margin: 10px;
+        }
+
+        #d3 {
+            border: 5px solid blueviolet;
+            margin: 10px;
+            margin-top: 50px;
+        }
+        a {
+           text-decoration: none;
+           color: aquamarine;
+        }
+
+        a:hover {
+           color: rgb(255, 163, 127);
+        }
+
+        #conte {
+            position: relative;
+            width: 500px;
+            height: 500px;
+            text-align: justify;
+            border-radius: 30px;
+            padding: 10px;
+            left: 1000px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div id="d1">
+        01
+        <p><a href="#">Olá mundo</a></p>
+    </div>
+    <div id="d2">
+        02
+        <p><a href="#">Me livrei</a></p>
+    </div>
+    <div id="d3">
+        03
+        <p><a href="#">Da maldição!</a></p>
+    </div>
+
+    <div id="conte">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eligendi repudiandae placeat perferendis, voluptatem veritatis sapiente nobis libero recusandae aliquam ducimus. Illo reiciendis labore perspiciatis nulla soluta quae expedita nisi sequi voluptate? Molestias rerum nobis debitis delectus quis sed quia fugit doloremque. Nesciunt explicabo harum, error dolorem vitae corporis aliquam, eaque voluptates dicta a inventore dolorum quas, aliquid nulla tempore enim vel sapiente beatae nobis cum repudiandae? Perferendis iure obcaecati accusantium quasi labore aut laboriosam odio rem, quae nisi aspernatur sit officiis enim, possimus dolorem quibusdam eaque quia architecto! Hic qui tempore eum dicta accusamus consequuntur quia incidunt dignissimos reiciendis.
+        </p>
+    </div>
+</body>
+</html>

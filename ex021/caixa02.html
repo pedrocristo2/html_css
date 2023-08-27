@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+
+            background-color: rgb(85, 98, 109);
+            margin: 0;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            
+
+        }
+
+        header > nav {
+            background-color: rgb(105, 118, 130);
+            padding: 5px;
+        }
+
+        footer > p {
+            color: aliceblue;
+            text-align: center;
+            margin: 0;
+        }
+
+        footer {
+            background-color: black;
+            padding: 5px;
+            
+        }
+
+        main {
+            background-color: hsl(0, 0%, 100%);
+            margin: 10px;
+            padding: 3px;
+            border-radius: 20px;
+        }
+
+        main > section {
+            background-color: white;
+            padding: 3px;
+        }
+
+        nav > a {
+            color: aliceblue;
+            padding: 10px;
+            text-decoration: none;
+        }
+
+        nav > a:hover {
+            color: rgb(104, 18, 5);
+            text-decoration: underline;
+        }
+
+        main > article {
+            background-color: rgb(165, 179, 188);
+            margin: 5px;
+
+        }
+
+        nav {
+           box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+          <p>Esportes Politica Tecnologia</p>
+            
+        </section>
+        <section id="noticia">
+
+        </section>
+        <article>
+            <h2>Noticia sobre o Brasil</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur quas eveniet, animi repellendus vitae neque aperiam similique, illum at, velit ducimus ex temporibus soluta molestias iusto ipsa rerum nostrum est!</p>
+ 
+            <aside>
+                <p>Artigo escrito por Pedro Garcia</p>
+            </aside>
+        </article>
+        <article>
+
+        </article>
+        
+    </main>
+    <footer>
+            <p>Desenvolvido por Pedro Sassa Garcia</p>
+        </footer>
+</body>
+</html>
